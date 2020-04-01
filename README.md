@@ -6,11 +6,11 @@ Te doy la bienvenida a mi repositorio, puedes usar este contenido con total libe
 
 <br>
 
-# Sitio Web: Romero José
+# Firma Email: Romero José
 
-Soy Romero Desarrollador Web autodidacta de Venezuela y uno de los proyectos más importantes es el que estás viendo ahora mismo, que se trata de mi sitio web y mi carta de presentación, quería algo ligero, optimizado para los buscadores y agradable a usuario.
+Soy Romero Desarrollador Web autodidacta de Venezuela, este es un proyecto importante ya que a contactar con posibles reclutadores o clientes debes dar una buena impresión.
 
-## [Prueba en Vivo](https://romerojose.com/) 
+## [Prueba en Vivo](https://romerojoseing.github.io/email/) 
 ![Thumbnail](readme/romero.png)
 
 <br><br>
@@ -34,7 +34,7 @@ Necesitas tener los siguientes programas o tecnologías instaladas para poder ej
 Para usar este proyecto necesitaras clonar este repositorio o descargarlo a tu ordenador. Si optas descargarlo de forma directa en la parte superior derecha del repositorio tendrás la opción, si no es tu caso puedes clonarlo colocando en tu consola git clone + la URL del repositorio a copiar
 
 ```
-$ git clone https://github.com/romerojoseing/test.git
+$ git clone https://github.com/romerojoseing/email.git
 ```
 
 <br><br>
@@ -49,7 +49,6 @@ Para desplegar este proyecto solo necesitaras ir a la carpeta y ejecutar el arch
 
 - HTML5
 - CSS3
-- JavaScript
 - Bootstrap 4
 
 <br><br>
