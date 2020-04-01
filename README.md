@@ -1,4 +1,4 @@
-<p align="center"><img src="readme/log.png" width="150"></p>
+<p align="center"><img src="https://github.com/romerojoseing/archivos/blob/master/img/logov.png?raw=true" width="150"></p>
 
 <p align="center">
 Te doy la bienvenida a mi repositorio, puedes usar este contenido con total libertad, siempre teniendo el mayor respeto por los autores que desarrollaron el proyecto.
@@ -11,7 +11,7 @@ Te doy la bienvenida a mi repositorio, puedes usar este contenido con total libe
 Soy Romero Desarrollador Web autodidacta de Venezuela, este es un proyecto importante ya que a contactar con posibles reclutadores o clientes debes dar una buena impresión.
 
 ## [Prueba en Vivo](https://romerojoseing.github.io/email/) 
-![Thumbnail](readme/romero.png)
+![Thumbnail](https://github.com/romerojoseing/archivos/blob/master/img/email.png?raw=true)
 
 <br><br>
 
@@ -55,7 +55,7 @@ Para desplegar este proyecto solo necesitaras ir a la carpeta y ejecutar el arch
 
 ## Autor
 
-<p align="center"><img src="readme/loge.png" width="200"></p>
+<p align="center"><img src="https://github.com/romerojoseing/archivos/blob/master/img/logoh.png?raw=true" width="200"></p>
 
 <p align="center">
   Si te gusto el proyecto sígueme y dame apoyo para seguir creando más contenido.
