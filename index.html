@@ -6,113 +6,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-
     <style>
+        :root{
+        /*---------- ligth ----------*/
+        --blanco: #ffffff;
+        --texto: #3d3d3d;
+        --rojo: #ed2651;
+        --rojoDark: #bb1e40;
+        --turquesa: #18d4ce;
+        --turquesaDark: #05bfc5;
+        --titulos: #1d1d1d;
+        --degradado: linear-gradient(to right, #18d4ce 0%,#ed2651 100%);
+        }
+
         *{
-            margin: 0px;
-            padding: 0px;
+            list-style: none;
             text-decoration: none;
         }
 
-        body {
-            font-family: sans-serif;
-            color: #061824;
+        body{
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            color: var(--texto);
         }
 
-        .logo {
-            height: 30px;
+       .section-title h2 {
+            font-size: 32px;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+            color: var(--texto);
+        }
+
+        .section-title h2::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 120px;
+            height: 1px;
+            background: #ddd;
+            bottom: 1px;
+            left: calc(50% - 60px);
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: var(--turquesa);
+            bottom: 0;
+            left: calc(50% - 20px);
+        }
+
+        .mt-5, .my-5 {
+            margin-top: 3rem!important;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Raleway", sans-serif;
+        }
+
+        #contact p {
+            font-size: 18px;
+            font-style: italic;
+            padding: 0;
+            margin: 0 0 40px 0;
+        }
+
+        .cursive {
+            color: var(--turquesaDark);
+            font-weight: bold;
+        }
+
+        .boton {
+            background: var(--rojo);
+            border: 0;
+            padding: 10px;
+            color: var(--blanco);
+            transition: 0.4s;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        #contact ul li {
+            font-size: 17px;
+            line-height: 3;
+            list-style: none;
         }
 
         .icon {
-            height: 15px;
+            height: 20px;
+            display: inline-block;
+            color: var(--texto);
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            text-align: center;
+            transition: 0.3s;
         }
 
-        .color {
-            color: #44a1a5;
-        }
-
-        a{
-            padding: 0px 7px 0px 7px;
-        }
-
-        a:hover{
-            color: #44a1a5;
-        }
-
-        .background {
-            background-color: #061824;
-        }
-
-        .mbr{
-            margin-bottom: -2rem;
-        }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron mbr bg-white text-center">            
+    <section id="contact" class="contact">
+        <div class="container">
+    
+            <div class="section-title">
+                <h2 class="mt-5">Contacto</h2>
+                <p class="leader">Si quieres <span class="cursive font-italic">trabajar conmigo</span>, puedes contactarme
+                    en estos enlaces:</p>
+                <ul>
+                    <li><strong>Email</strong>: <a class="boton"
+                            href="mailto:romerojoseing@gmail.com">romerojoseing@gmail.com</a></li>
+                    <li><strong>WhatsApp</strong>: <a class="boton"
+                            href="https://api.whatsapp.com/send?phone=584147353163">+58 414 735
+                            3163</a></li>
+                </ul>
+                <p>Todas mis redes a continuación:</p>
+                <a target="_blank" href="https://romerojose.com/"><img class="icon" src="https://i.imgur.com/E4WlG56.png" alt=""></a>
+                
+                <a target="_blank" href="https://www.instagram.com/romerojoseing/"><img class="icon"
+                        src="https://i.imgur.com/UO8cLTr.png" alt=""></a>
+                
+                <a target="_blank" href="https://www.facebook.com/romerojoseing"><img class="icon" src="https://i.imgur.com/xyMZpZ8.png"
+                        alt=""></a>
+                
+                <a target="_blank" href="https://twitter.com/romerojoseing"><img class="icon" src="https://i.imgur.com/jMOQGZS.png"
+                        alt=""></a>
 
-            <hr>
+                <a target="_blank" href="https://www.linkedin.com/in/romerojoseing/"><img class="icon"
+                        src="https://i.imgur.com/jOyjrA9.png" alt=""></a>
+                
+                <a target="_blank" href="https://github.com/romerojoseing"><img class="icon" src="https://i.imgur.com/qyprgr2.png"
+                        alt=""></a>
 
-            <p>
-                <span class="font-italic font-weight-bold color">
-                    encuentrame
-                </span> en mi 
-                <span class="font-italic font-weight-bold color">
-                    web
-                </span> y 
-                <span class="font-italic font-weight-bold color">
-                    redes
-                </span>
-            </p>
-
-            <p>
-                <small>
-                    <span class="font-italic font-weight-bold background text-white p-1">whatsapp:</span> 
-                    <a target="_blank"class="color" href="https://api.whatsapp.com/send?phone=584147353163">+58 414 735 3163</a>
-                </small>
-            </p>
-            
-            <p>
-                <small>
-                    <span class="font-italic font-weight-bold background text-white p-1">web:</span class="font-italic font-weight-bold bpckground text-white p-1"> 
-                    <a target="_blank"class="color" href="https://romerojose.com/">romerojose.com</a>
-                </small>
-            </p>
-            
-            <div class="mb-4">
-<a target="_blank" href="https://romerojose.com/"><img class="icon" src="https://i.imgur.com/E4WlG56.png" alt=""></a>
-
-<a target="_blank" href="https://www.linkedin.com/in/romerojoseing/"><img class="icon" src="https://i.imgur.com/jOyjrA9.png" alt=""></a>
-
-<a target="_blank" href="https://github.com/romerojoseing"><img class="icon" src="https://i.imgur.com/qyprgr2.png" alt=""></a>
-
-<a target="_blank" href="https://www.instagram.com/romerojoseing/"><img class="icon" src="https://i.imgur.com/UO8cLTr.png" alt=""></a>
-
-<a target="_blank" href="https://www.facebook.com/romerojoseing"><img class="icon" src="https://i.imgur.com/xyMZpZ8.png" alt=""></a>
-
-<a target="_blank" href="https://twitter.com/romerojoseing"><img class="icon" src="https://i.imgur.com/jMOQGZS.png" alt=""></a>
+                </div>
+                
+                
             </div>
-
-            <img class="logo" src="https://github.com/romerojoseing/email/blob/master/img/logo.png?raw=true" alt="">
-
-            <hr>
-
+            <div class="copyright text-center">
+                &copy; Copyright, Diseñado con ❤ por <strong><span>Romero José</span></strong>, Todos los Derechos
+                Reservados.
+            </div>
         </div>
-    </div>
+    </section><!-- End Contact Section -->
 </body>
 
 </html>
