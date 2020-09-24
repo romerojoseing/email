@@ -3,7 +3,7 @@
 _Soy Romero Desarrollador Web autodidacta de Venezuela, este es un proyecto importante ya que a contactar con posibles reclutadores o clientes debes dar una buena impresión._
 
 ## [Ver en Vivo](https://romerojoseing.github.io/email/) ⚡
-![Thumbnail](https://github.com/romerojoseing/archivos/blob/master/img/email.png?raw=true)
+![Thumbnail](https://github.com/romerojoseing/email/blob/master/img/img.png?raw=true)
 
 <br>
 
